@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Test from "./Test";
 import Googlelogin from "./Googlelogin";
+import AmmarCode from "./ammar-code/AmmarCode";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       }}
     >
       {/* {<Test />} */}
-      {<Googlelogin />}
+      {/* {<Googlelogin />} */}
+      <AmmarCode/>
     </div>
   );
 }
