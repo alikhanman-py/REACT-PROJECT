@@ -47,23 +47,24 @@ const UseGoogleAccount = () => {
 const EmailOrPhoneComp = () => {
   return (
     // <div
-    //   style={{
-    //     color: "#808080",
-    //     fontSize: 20,
-    //     height: 40,
-    //     fontWeight: 400,
-    //     border: "2px solid grey",
-    //     backgroundColor: "white",
-    //     borderColor: "#808080",
-    //     borderRadius: 10,
-    //     width: 400,
-    //   }}
+    //   // style={{
+    //   //   color: "#808080",
+    //   //   fontSize: 20,
+    //   //   height: 40,
+    //   //   fontWeight: 400,
+    //   //   border: "2px solid grey",
+    //   //   backgroundColor: "white",
+    //   //   borderColor: "#808080",
+    //   //   borderRadius: 10,
+    //   //   width: 400,
+    //   // }}
     // >
+
     //   Email or phone
     // </div>
     <input
       placeholder="Email or phone"
-      type='email'
+      type="email"
       style={{
         color: "black",
         fontSize: 20,
@@ -74,7 +75,7 @@ const EmailOrPhoneComp = () => {
         borderColor: "#808080",
         borderRadius: 10,
         width: 400,
-        paddingLeft:10
+        paddingLeft: 10,
       }}
     />
   );
@@ -88,7 +89,7 @@ const ForgotEmailComp = () => {
         fontSize: 15,
         fontWeight: 400,
         marginTop: 10,
-        cursor:'pointer'
+        cursor: "pointer",
       }}
     >
       Forgot Email?
@@ -138,7 +139,7 @@ const CreateAccounComp = () => {
           paddingRight: 10,
           paddingTop: 5,
           paddingBottom: 5,
-          cursor:'pointer'
+          cursor: "pointer",
         }}
       >
         Next
@@ -154,10 +155,6 @@ function AmmarCode() {
         backgroundColor: "#f0f4f8",
         width: "100vw",
         height: "100vh",
-        alignItems: "center",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
       }}
     >
       <div
