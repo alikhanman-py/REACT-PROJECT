@@ -1,3 +1,4 @@
+import ButtonColor from "./ammar-code/button-color";
 import "./App.css";
 import Googlelogin from "./Googlelogin";
 // import AmmarCode from "./ammar-code/AmmarCode";
@@ -10,7 +11,8 @@ function App() {
         height: "100vh",
       }}
     >
-      <Googlelogin />
+      {/* <Googlelogin /> */}
+      <ButtonColor/>
     </div>
   );
 }
