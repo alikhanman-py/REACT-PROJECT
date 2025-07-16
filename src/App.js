@@ -1,6 +1,8 @@
-import ButtonColor from "./ammar-code/button-color";
+// import ButtonColor from "./ammar-code/button-color";
 import "./App.css";
 import Googlelogin from "./Googlelogin";
+import ButtonAnimate from "./ButtonAnimate";
+
 // import AmmarCode from "./ammar-code/AmmarCode";
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
       }}
     >
       {/* <Googlelogin /> */}
-      <ButtonColor/>
+      {/* <ButtonColor/> */}
+      <ButtonAnimate />
     </div>
   );
 }
